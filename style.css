@@ -1,0 +1,530 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+p {
+  opacity: 0.9;
+}
+
+span {
+  font-size: 36px;
+  opacity: 1;
+}
+
+#menu {
+  right: 0;
+  top: 0;
+  width: 28px;
+  margin: 0;
+  padding: 360px 16px 0 0;
+  position: fixed;
+  height: 100%;
+  z-index: 70;
+  text-align: center;
+}
+
+#menu li {
+  background: #fff;
+  border-radius: 6px;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+/*Стиль ссылки когда активен соответствующий блок*/
+#menu li a, #menu li.active a {
+  display: flex;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 0;
+}
+
+/*Стиль элемента списка когда активен соответствующий блок*/
+#menu li.active {
+  background: #f78b1f;
+  color: #fff;
+}
+
+/* ====================================================
+block1
+=============================================================*/
+.site__block__top {
+  background: #72b9fd url("img/background/1.png") center no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 768px;
+}
+
+.Bpulsate {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: Bpulse 5s linear infinite;
+}
+
+.Bpulsate__2 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: Bpulse 5s linear infinite;
+  animation-delay: 1s;
+}
+
+.Bpulsate__3 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: Bpulse 5s linear infinite;
+  animation-delay: 2s;
+}
+
+.Bpulsate__4 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: Bpulse 5s linear infinite;
+  animation-delay: 3s;
+}
+
+.Bpulsate__5 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  animation: Bpulse 5s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes Bpulse {
+  from {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    border: 1px solid;
+    border-color: #FFFF00;
+  }
+
+  60% {
+    border-color: red;
+  }
+
+  to {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
+
+.Mpulsate {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  animation: Mpulse 5s linear infinite;
+}
+
+.Mpulsate__2 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  animation: Mpulse 5s linear infinite;
+  animation-delay: 1s;
+}
+
+.Mpulsate__3 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  animation: Mpulse 5s linear infinite;
+  animation-delay: 2s;
+}
+
+.Mpulsate__4 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  animation: Mpulse 5s linear infinite;
+  animation-delay: 3s;
+}
+
+.Mpulsate__5 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  animation: Mpulse 5s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes Mpulse {
+  from {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    border: 1px solid;
+    border-color: #FFFF00;
+  }
+
+  60% {
+    border-color: red;
+  }
+
+  to {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+.Spulsate {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  animation: Spulse 5s linear infinite;
+}
+
+.Spulsate__2 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  animation: Spulse 5s linear infinite;
+  animation-delay: 1s;
+}
+
+.Spulsate__3 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  animation: Spulse 5s linear infinite;
+  animation-delay: 2s;
+}
+
+.Spulsate__4 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  animation: Spulse 5s linear infinite;
+  animation-delay: 3s;
+}
+
+.Spulsate__5 {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  animation: Spulse 5s linear infinite;
+  animation-delay: 4s;
+}
+
+@keyframes Spulse {
+  from {
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    border: 1px solid;
+    border-color: #FFFF00;
+  }
+
+  60% {
+    border-color: red;
+  }
+
+  to {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+
+.puls1 {
+  position: absolute;
+  padding-top: 227px;
+  padding-left: 526px;
+}
+
+.puls2 {
+  position: absolute;
+  padding-top: 397px;
+  padding-left: 245px;
+}
+
+.puls3 {
+  position: absolute;
+  padding-top: 513px;
+  padding-left: 455px;
+}
+
+.puls4 {
+  position: absolute;
+  padding-top: 492px;
+  padding-left: 797px;
+}
+
+.title__text1 {
+  font-size: 50px;
+  position: absolute;
+  margin-left: 64px;
+  margin-top: 93px;
+  color: #0d319c;
+}
+
+.title__text2 {
+  position: absolute;
+  margin-left: 621px;
+  margin-top: 257px;
+  color: #0d319c;
+}
+
+.title__text3 {
+  position: absolute;
+  margin-left: 234px;
+  margin-top: 373px;
+  color: #0d319c;
+}
+
+.title__text4 {
+  position: absolute;
+  margin-left: 374px;
+  margin-top: 478px;
+  color: #0d319c;
+}
+
+.title__text5 {
+  position: absolute;
+  margin-left: 792px;
+  margin-top: 452px;
+  color: #0d319c;
+}
+
+/* ============================================
+Block 2
+==============================================*/
+.site__block__middle {
+  width: 100%;
+  height: 768px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform-style: preserve-3d;
+  z-index: 3;
+}
+
+.block2__foreground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  transform: translateZ(90px);
+  z-index: 1;
+
+}
+
+.block2__base {
+  background: #2835a4 url("img/background/2.png") center no-repeat / cover;
+  transform: translateZ(0);
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.block2__text {
+  position: absolute;
+  padding-top: 141px;
+  padding-left: 329px;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.block2__img {
+  position: absolute;
+  padding-top: 33px;
+  padding-left: 74px;
+
+}
+
+/* ============================================
+Block 3
+==============================================*/
+.site__block__bottom {
+  background: #111653 url("img/background/3.png") center no-repeat / cover;
+  width: 100%;
+  height: 768px;
+}
+
+.block3__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.block3__image {
+  padding: 160px 60px 90px 220px;
+}
+
+.img__beta {
+  display: flex;
+  margin-top: -130px;
+  margin-left: 480px;
+}
+
+.img__left {
+  position: absolute;
+  margin-top: -155px;
+}
+
+.img__bottom {
+  position: absolute;
+  margin-left: 112px;
+  margin-top: 352px;
+}
+
+.img__right {
+  position: absolute;
+  margin-left: 938px;
+  margin-top: -28px;
+}
+
+/*Block text */
+/* Text: β-клетки */
+.text1 {
+  position: relative;
+  margin-top: -635px;
+  margin-right: 480px;
+  text-align: right;
+}
+
+/* Text: Микрофлора кишечника */
+.text2 {
+  position: relative;
+  margin-right: 815px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+/* Text: Головной мозг */
+.text3 {
+  position: absolute;
+  text-align: left;
+  margin-left: 775px;
+  margin-top: -120px;
+}
+
+/* Text: Нарушение иммунной регуляции/воспаление */
+.text4 {
+  position: absolute;
+  text-align: right;
+  margin-top: 35px;
+}
+
+/* Text: инкретинового эффекта */
+.text5 {
+  position: absolute;
+  text-align: right;
+  margin-left: 327px;
+  margin-top: 73px;
+}
+
+/* Text: Дефект α-клеток  */
+.text6 {
+  position: absolute;
+  text-align: left;
+  margin-left: 513px;
+  margin-top: 70px;
+}
+
+/* Text: ↓ амилин */
+.text7 {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 155px;
+  font-size: 15px;
+}
+
+/* Text: ↑ глюкагон */
+.text8 {
+  position: absolute;
+  margin-left: 514px;
+  margin-top: 172px;
+  font-size: 15px;
+}
+
+/* Text: Желудок */
+.text9 {
+  position: absolute;
+  text-align: right;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+/* Text: Гипергликемия */
+.text10 {
+  position: absolute;
+  margin-left: 397px;
+  margin-top: 228px;
+  font-size: 25px;
+}
+
+/* Text: Почки */
+.text11 {
+  position: absolute;
+  margin-left: 398px;
+  margin-top: 304px;
+  text-align: right;
+}
+
+/* Text: Инсулинорезистентность */
+.text12 {
+  position: absolute;
+  margin-left: 734px;
+  margin-top: 87px;
+  font-size: 15px;
+}
+
+/* Text: Печень */
+.text13 {
+  position: absolute;
+  margin-left: 778px;
+  margin-top: 120px;
+  text-align: left;
+}
+
+/* Text: Мышцы */
+.text14 {
+  position: absolute;
+  margin-left: 778px;
+  margin-top: 211px;
+  text-align: left;
+}
+
+/* Text: Жировые клетки */
+.text15 {
+  position: absolute;
+  margin-left: 778px;
+  margin-top: 302px;
+  text-align: left;
+}
+
+/* Text: Звенья патогенеза СД2 */
+.text16 {
+  position: absolute;
+  margin-left: 111px;
+  margin-top: -187px;
+  font-size: 30px;
+}
